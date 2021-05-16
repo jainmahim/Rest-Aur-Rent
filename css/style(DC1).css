@@ -215,7 +215,7 @@ z-index: -1;
     cursor: pointer;
     
     justify-content: center;
-    width: 250px;
+    width: 100%;
     padding: 10px;
     font-size: larger;
     border-radius: 10px;
@@ -310,7 +310,7 @@ padding-top: 50px;
     font-size: 16px;
     width: 50%;
     border-radius: 4px;
-    margin-left: 350px;
+    margin-left: 20%;
     
   }
   
@@ -469,46 +469,47 @@ section .contact-us .contact-info > div > div > div span:first-child{
 
 /* To make it responsive */
 
-@media(max-width:800px){
+@media(max-width:940px){
 
     .nav-trigger{
         display: block;
     }
-    header.topbar,nav{
+    header.topbar,nav,.navbar{
         display: none;
     }
     
-
-    .our-services.card-wrapper{
+    .hero > div{
         flex-direction: column;
     }
 
-    .our-services.card-wrapper.service-card{
-        margin-bottom: 6rem;
+    .hero img{
+        margin-top: 5%;
     }
 
-    .our-services h1{
-        font-size: larger;
+    .our-services  > div > div{
+        flex-direction: column;
     }
+
+    .service-card{
+        margin-bottom: 10%;
+    }
+
+   .review-section >div >div{
+       flex-direction: column;
+   }
+
+   .feedback-section > div{
+       flex-direction: column;
+   }
 
     footer .foot-container{
         flex-direction: column;
 
     }
-    .contact-us{
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-    .statstics{
-        flex-direction: column;
-        align-items: center;
-        
-    }
+   .top-products > div >div{
+       flex-direction: column;
+   }
 
-    .map{
-        align-items: center;
-    }
 }
 
 .top-button{
