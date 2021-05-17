@@ -272,7 +272,7 @@ padding-top: 50px;
 }
 
 .food-cart button{
-    background-color: var(--primary);
+    background-color: var(--heaven);
     cursor: pointer;
     margin-left: 10%;
     justify-content: center;
@@ -440,7 +440,7 @@ section .contact-us .contact-info > div > div > div span:first-child{
   }
 
   input[type=submit] {
-    background-color:var(--primary);
+    background-color:var(--heaven);
     color:black;
     cursor: pointer;
     border-radius: 6px;
