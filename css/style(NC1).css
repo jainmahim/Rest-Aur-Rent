@@ -224,9 +224,7 @@ z-index: -1;
     color: var(--footer);
     /* overflow: initial; */
 }
-.hero button:hover{
-    background-color: var(--background);
-}
+
 
 .hero button a{
     text-decoration: none;
