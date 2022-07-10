@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest-Aur-Rent Login </title>
+    <link rel="stylesheet" href="./css/sign_in_style.css">
+    <script src="https://kit.fontawesome.com/e368af8b8b.js" crossorigin="anonymous"></script>
+
+</head>
+    
+<body style="background-image: url(https://scontent.fdel29-1.fna.fbcdn.net/v/t31.18172-8/14195329_1532329806793177_27774450389636213_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=UYRt7VpiTWUAX8jFwL1&_nc_ht=scontent.fdel29-1.fna&oh=00_AT8Dlq0wlikYKBnLT8LM3lid12tP_5nIun7lqhUeRcLY2w&oe=62072C19); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;
+text-align:center; padding: 150px; background-color: #fff8ba;">
+
+<div class= signin>
+
+    <form style="max-width:500px;margin:auto">
+
+        <h1 style="color: rgb(0, 0, 0);">Sign In / Sign up</h1>
+        <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input id="username" class="input-field" type="text" placeholder="Username" value="" required>
+
+        </div>
+
+        <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input id="password" class="input-field" type="password" placeholder="Password" value="" required>
+        </div>
+
+        <button type='submit' class="btn">Sign in</button>
+
+
+        
+    </form>
+
+
+  
+
+
+
+
+    <button onclick="document.getElementById('id01').style.display='block'" class='btn2' style="width:auto;">Not a member? Sign
+        Up</button>
+
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+        <form class="modal-content">
+            <div class="container">
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Name" name="" required>
+
+                
+                <label for="mobno"><b>Mobile Number</b></label>
+                <input type="number" placeholder="Mobile Number" name="mobno" required>
+                
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-repeat"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+
+
+
+                <p>By creating an account you agree to our <a href="#" style="color:#EEBF00">Terms & Privacy</a>.</p>
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</body>
+
+</html>
