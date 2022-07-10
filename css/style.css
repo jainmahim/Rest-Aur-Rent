@@ -184,8 +184,9 @@ header.topbar .auth > div img{
 }
 
 .navbar-logo img:hover{
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
+    transform: scale(1.3);
 }
 
 
@@ -284,7 +285,18 @@ padding-top: 50px;
 
 }
 .food-cart img:hover{
-    margin-top: 10px;
+    
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.11);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.11);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.11);
+    transition: all 200ms ease-in;
+    transform: scale(1.11);
+
 
 }
 
